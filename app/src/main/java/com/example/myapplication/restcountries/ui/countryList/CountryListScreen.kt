@@ -175,24 +175,6 @@ private fun CountryItemsList(
     }
 }
 
-@Composable
-fun CountryErrorDialog(
-    dialogState: Boolean,
-    text: String,
-    onCancelAction: () -> Unit,
-    onSubmitAction: () -> Unit
-) {
-//    if (dialogState) {
-//        TMDialog(
-//            text = text,
-//            onCancelAction = onCancelAction,
-//            onConfirmAction = onSubmitAction,
-//            confirmTextButton = stringResource(id = R.string.lbl_try_again),
-//            cancelButtonText = stringResource(id = R.string.lbl_exit)
-//        )
-//    }
-}
-
 @AppThemePreviews
 @Composable
 fun CommunityListBodyPreview() {
